@@ -1,0 +1,26 @@
+#intermediate problem
+
+import math
+t=int(input())
+for _ in range(t):
+    z,x,y=map(int,input().split())
+    x1=math.ceil(z/x)
+    y1=math.ceil(z/y)
+    if(x1>y1):
+        if((x1-y1)>1):
+            print((x1-y1)-1)
+        else:
+            print(0)
+    else:
+        print(-1)
+    
+
+#Beginners problem
+
+t=int(input())
+for _ in range(t):
+    x,y=map(int,input().split())
+    if (x>=y):
+        print(y)
+    else:
+        print(x+((y-x)*2))
