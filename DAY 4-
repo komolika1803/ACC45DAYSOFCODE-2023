@@ -1,0 +1,29 @@
+#beginner's level code
+
+t=int(input())
+for _ in range(t):
+    x=int(input())
+    if x<=15:
+        print("Yes")
+    else:
+        print("No")
+
+
+
+#intermediate level 
+
+#include <iostream>
+using namespace std;
+int main() {
+int t;
+cin>>t;
+while(t--){
+    int x;
+    cin>> x;
+    int mid=(x+1)/2 ;
+    if(mid==1){
+    cout<<mid<<endl;}
+    else{
+        cout<<((mid-1)*2);
+    }
+}}
