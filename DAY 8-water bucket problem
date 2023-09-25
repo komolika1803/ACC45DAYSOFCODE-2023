@@ -1,0 +1,21 @@
+
+#beginners problem
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	while(t--){
+	    int x,y,temp;
+	    cin>>x>>y;
+	    temp=y*2;
+	    if (temp<=x){
+	        cout<<x/y<<endl;
+	    }
+	    else{
+	        cout<<0<<endl;
+	    }
+	}
+	return 0;
+}
